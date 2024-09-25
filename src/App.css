@@ -1,0 +1,95 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header div {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #61dafb;
+}
+.submit {
+  background-color: rgb(0, 81, 255);
+  color: white;
+  box-shadow: 3px 3px 20px 4px rgb(122, 121, 121);
+}
+
+select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.gameover {
+  color: red;
+  font-size: 40px;
+}
+
+.roundc {
+  color: green;
+  font-size: 40px;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.player {
+  background-color: rgb(151, 151, 255);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 30px 20px;
+  box-shadow: 3px 3px 20px 4px rgb(122, 121, 121);
+}
+.winnertext {
+  font-size: 40px;
+  color: rgb(1, 156, 14);
+}
+.drawtext {
+  font-size: 40px;
+  color: rgb(255, 0, 13);
+}
